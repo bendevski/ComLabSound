@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jscript/script.js"></script>
+</head>
+
+<body onload="onload()">
+
+    <div id="container">
+        <img src="media/Home.png" id="home">
+        <div id="doors">
+            <div onclick="what1()">
+                <img src="media/Door1.png" id="door1c" class="close" />
+                <img src="media/Door.gif" id="door1o" class="open" />
+
+            </div>
+            <div onclick="what2()">
+                <img src="media/Door1.png" id="door2c" class="close" />
+                <img src="media/Door.gif" id="door2o" class="open" />
+
+            </div>
+            <div onclick="what3()">
+                <img src="media/Door1.png" id="door3c" class="close" />
+                <img src="media/Door.gif" id="door3o" class="open" />
+            </div>
+        </div>
+        <div id="done" onclick="what4()">
+            <img src="media/Door1.png" id="door4c" class="close" />
+            <img src="media/Door.gif" id="door4o" class="open" />
+
+        </div>
+        <img src="media/yell.gif" id="door1a" class="ani" />
+        <img src="media/rain.gif" id="door2a" class="ani" />
+        <img src="media/calm.gif" id="door4a" class="ani" />
+    </div>
+    <div id="end"></div>
+</body>
+
+</html>

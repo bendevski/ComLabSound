@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 10%;
+    max-width: 100%;
+}
+
+#home {
+    width: 20%;
+    align-self: center;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+#doors {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+}
+
+img {
+    max-width: 20vw;
+}
+
+#end {
+    position: absolute;
+    background-color: black;
+    height: 120%;
+    width: 120%;
+    top: -120%;
+    left: -10%;
+}
+
+.ani {
+    display: none;
+    align-self: center;
+    max-width: 100%;
+}
