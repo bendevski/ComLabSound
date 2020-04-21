@@ -32,7 +32,7 @@ function enter(close, open, after, audio, duration) {
 }
 
 function what1() {
-    entered[0] = 1;
+
     if (entered[0]) {
         locked();
         return;
@@ -42,7 +42,7 @@ function what1() {
 }
 
 function what2() {
-    entered[1] = 1;
+
     if (entered[1]) {
         locked();
         return;
