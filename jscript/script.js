@@ -1,4 +1,4 @@
-let entered = [1, 1, 1];
+let entered = [0, 0, 0];
 let x = -120;
 let inter;
 let lockers = ["media/Locked.mp3", "media/Locked-2.mp3", "media/Locked-3.mp3"];
